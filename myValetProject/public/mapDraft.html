@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+        <meta charset="utf-8">
+        <title>Home</title>
+        {% load static %}
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="{% static "CSS/style3.css" %}"/>
+		<script  src="{% static "scripts/modernizr.custom.js" %}"></script>
+    </head>
+    <body>
+        <input id="pac-input" class="controls" type="text" placeholder="Search Box">
+        <div id="map"></div>
+<!-- Replace the value of the key parameter with your own API key. -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4d2ew9UfHchhlYl_VBLtGryqgwbD18eA&callback=initMap&libraries=places,visualization" async defer></script>
+
+        <script type="text/javascript" src="{% static "scripts/step6.js" %}"></script>
+        <script type="text/javascript" src="{% static "scripts/ytmenu.js" %}"></script>
+    </body>
+</html>

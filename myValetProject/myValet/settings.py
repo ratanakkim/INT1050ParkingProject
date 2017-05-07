@@ -23,14 +23,15 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '$-)q_u8!y0x!x4ftc$wq103^8k62rx==k(m1jqhxof5@4e4rqd'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['139.59.252.16']
+ALLOWED_HOSTS = ['139.59.252.16','myvaletparking.co.uk','www.myvaletparking.co.uk']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'myvaletapp',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -54,7 +55,7 @@ ROOT_URLCONF = 'myValet.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR,"public/"),],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -121,5 +122,6 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
-STATIC_ROOT = os.path.join(BASE_DIR,"static/")
+#STATIC_ROOT = os.path.join(BASE_DIR,"static/")
+STATIC_ROOT = '/home/dev/myValetProject/myvaletapp/static/'
 STATIC_URL = '/static/'

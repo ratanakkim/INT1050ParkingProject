@@ -8,16 +8,27 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~Msle0~/\<start\>
+~Msle0~/\<alias\>
 
 # Command Line History (newest to oldest):
-:wq!
 :q!
 :wq
 :q
+:wq!
+:qq!~
+:q1
+:wq1
+:qw
 :!q
 
 # Search String History (newest to oldest):
+? \<alias\>
+? \<print\>
+?/wsg
+?/test
+?/please
+?/home
+?/php
 ? \<start\>
 
 # Expression History (newest to oldest):
@@ -27,159 +38,425 @@
 # Input Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
-	alias l='ls -CF'
+"0	LINE	0
+	root	ALL=(ALL:ALL) ALL
+"1	LINE	0
+	}
+"2	LINE	0
+	    width: 100%;
+"3	LINE	0
+	    position: center;
+"4	LINE	0
+	.fb_login {
+"5	LINE	0
+	</div>
+"6	LINE	0
+	<div class="fb_login">
+"7	LINE	0
+	  <div class="container">
+"8	LINE	0
+	}
+"9	LINE	0
+	    display: inline-block;
+""-	CHAR	0
+	r
 
 # File marks:
-'0  29  0  /etc/vsftpd.conf
-'1  78  4  ~/.bashrc
-'2  91  39  ~/.bashrc
-'3  35  0  /etc/ntp.conf
-'4  13  56  /etc/nginx/sites-available/myValetProject
-'5  22  97  /etc/init/gunicorn.conf
-'6  14  0  /etc/init/gunicorn.conf
-'7  1  0  /etc/nginx/sites-available/myValetProject
-'8  8  30  /etc/nginx/sites-available/myValetProject
-'9  11  69  etc/ngingx/site-availble/myValetProject
+'0  1  0  ~/myValetProject/public/mapDraft.html
+'1  26  0  ~/myValetProject/myvaletapp/static/CSS/style3.css
+'2  1  0  ~/myValetProject/public/main.html
+'3  52  2  ~/myValetProject/public/home.html.fb
+'4  142  11  ~/myValetProject/myvaletapp/static/scripts/step6.js
+'5  143  0  ~/myValetProject/myvaletapp/static/scripts/step6.js
+'6  131  292  ~/myValetProject/myvaletapp/static/scripts/step6.js
+'7  140  2  ~/myValetProject/myvaletapp/static/scripts/step6.js
+'8  107  4  ~/myValetProject/myvaletapp/static/scripts/step6.js
+'9  4  0  ~/myValetProject/myvaletapp/static/scripts/modernizr.custom.js
 
 # Jumplist (newest first):
--'  29  0  /etc/vsftpd.conf
--'  1  0  /etc/vsftpd.conf
--'  78  4  ~/.bashrc
--'  1  0  ~/.bashrc
--'  91  39  ~/.bashrc
--'  35  0  /etc/ntp.conf
--'  1  0  /etc/ntp.conf
--'  13  56  /etc/nginx/sites-available/myValetProject
+-'  1  0  ~/myValetProject/public/mapDraft.html
+-'  26  0  ~/myValetProject/myvaletapp/static/CSS/style3.css
+-'  1  0  ~/myValetProject/myvaletapp/static/CSS/style3.css
+-'  1  0  ~/myValetProject/public/main.html
+-'  52  2  ~/myValetProject/public/home.html.fb
+-'  1  0  ~/myValetProject/public/home.html.fb
+-'  142  11  ~/myValetProject/myvaletapp/static/scripts/step6.js
+-'  1  0  ~/myValetProject/myvaletapp/static/scripts/step6.js
+-'  143  0  ~/myValetProject/myvaletapp/static/scripts/step6.js
+-'  131  292  ~/myValetProject/myvaletapp/static/scripts/step6.js
+-'  140  2  ~/myValetProject/myvaletapp/static/scripts/step6.js
+-'  107  4  ~/myValetProject/myvaletapp/static/scripts/step6.js
+-'  4  0  ~/myValetProject/myvaletapp/static/scripts/modernizr.custom.js
+-'  1  0  ~/myValetProject/myvaletapp/static/scripts/modernizr.custom.js
+-'  1  0  ~/myValetProject/myvaletapp/static/scripts/ytmenu.js
+-'  55  0  ~/myValetProject/myvaletapp/models.py
+-'  1  0  ~/myValetProject/myvaletapp/models.py
+-'  53  0  ~/myValetProject/myValet/settings.py
+-'  1  0  ~/myValetProject/myValet/settings.py
+-'  1  0  ~/myValetProject/myvaletapp/views.py
+-'  24  0  ~/myValetProject/myValet/urls.py
+-'  1  0  ~/myValetProject/myValet/urls.py
+-'  18  4  ~/myValetProject/myValet/urls.py
+-'  62  0  /etc/nginx/sites-available/django
+-'  1  0  /etc/nginx/sites-available/django
 -'  1  0  /etc/nginx/sites-available/myValetProject
--'  22  97  /etc/init/gunicorn.conf
+-'  127  0  ~/myValetProject/myValet/settings.py
+-'  74  48  ~/myValetProject/myvaletapp/static/scripts/step6.js
+-'  11  49  /etc/nginx/sites-available/myValetProject
+-'  35  7  /etc/nginx/sites-available/django
+-'  18  76  ~/myValetProject/public/mapDraft.html
+-'  126  57  ~/myValetProject/myValet/settings.py
+-'  26  12  ~/myValetProject/myValet/settings.py
+-'  40  8  /etc/nginx/sites-available/django
+-'  34  2  /etc/nginx/sites-available/django
+-'  9  8  /etc/nginx/sites-available/myproject
+-'  1  0  /etc/nginx/sites-available/myproject
+-'  10  0  /etc/nginx/sites-available/myValetProject
+-'  10  35  ~/myValetProject/myvaletapp/views.py
+-'  1  0  ~/myValetProject/myValet/urls
+-'  19  33  ~/myValetProject/myValet/urls.py
+-'  1  0  /etc/nginx/sites-available/myValetProject_020517
+-'  1  0  /etc/nginx/sites-available/myValetProject.bak
+-'  48  0  /etc/nginx/sites-available/django
+-'  13  0  /etc/nginx/sites-available/myValetProject
+-'  1  0  /etc/nginx/sites-available
+-'  125  0  ~/myValetProject/myValet/settings.py
+-'  1  0  ~/myValetProject/myvaletapp/admin.py
+-'  42  0  ~/myValetProject/myValet/settings.py
+-'  4  0  ~/myValetProject/myvaletapp/views.py
+-'  148  2  ~/myValetProject/public/home.html
+-'  1  0  ~/myValetProject/public/home.html
+-'  99  4  ~/myValetProject/myValet/settings.py
+-'  51  0  ~/myValetProject/myValet/settings.py
+-'  54  0  ~/myValetProject/myValet/settings.py
+-'  109  0  ~/myValetProject/myValet/settings.py
+-'  18  0  /etc/init/gunicorn.conf
 -'  1  0  /etc/init/gunicorn.conf
--'  14  0  /etc/init/gunicorn.conf
--'  8  30  /etc/nginx/sites-available/myValetProject
--'  11  69  etc/ngingx/site-availble/myValetProject
--'  1  0  etc/ngingx/site-availble/myValetProject
--'  3  0  /etc/init/gunicorn.conf
--'  28  30  ~/myValetProject/myValet/settings.py
--'  1  0  ~/myValetProject/myValet/settings.py
--'  124  43  ~/myValetProject/myValet/settings.py
--'  84  11  ~/myValetProject/myValet/settings.py
--'  79  48  ~/myValetProject/myValet/settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  28  30  ~/myValetProject/myValet/settings.py
--'  1  0  ~/myValetProject/myValet/settings.py
--'  124  43  ~/myValetProject/myValet/settings.py
--'  84  11  ~/myValetProject/myValet/settings.py
--'  79  48  ~/myValetProject/myValet/settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  28  30  ~/myValetProject/myValet/settings.py
--'  1  0  ~/myValetProject/myValet/settings.py
--'  124  43  ~/myValetProject/myValet/settings.py
--'  84  11  ~/myValetProject/myValet/settings.py
--'  79  48  ~/myValetProject/myValet/settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  28  30  ~/myValetProject/myValet/settings.py
--'  1  0  ~/myValetProject/myValet/settings.py
--'  124  43  ~/myValetProject/myValet/settings.py
--'  84  11  ~/myValetProject/myValet/settings.py
--'  79  48  ~/myValetProject/myValet/settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
--'  1  0  ~/myValetProject/myValet.settings.py
+-'  71  28  ~/myValetProject/myValet/settings.py
+-'  1  0  ~/myValetProject/myValet/wsgi.py
+-'  16  0  /etc/init/gunicorn.conf
+-'  17  1  /etc/nginx/sites-available/myValetProject
+-'  18  4  /etc/nginx/sites-available/django
+-'  21  4  /etc/sudoers
+-'  1  0  /etc/sudoers
+-'  3  0  /etc/nginx/sites-available/django
+-'  2  0  /etc/nginx/sites-available/django
+-'  88  4  ~/myValetProject/public/home.html
+-'  47  15  ~/myValetProject/public/home.html
+-'  152  4  ~/myValetProject/public/home.html
+-'  191  10  ~/myValetProject/public/home.html
+-'  182  0  ~/myValetProject/public/home.html
+-'  177  42  ~/myValetProject/public/home.html
+-'  176  7  ~/myValetProject/public/home.html
+-'  83  6  ~/myValetProject/public/home.html
+-'  59  0  ~/myValetProject/public/home.html
+-'  90  4  ~/myValetProject/public/home.html
+-'  5  2  ~/myValetProject/public/main.html
+-'  44  0  ~/myValetProject/public/home.html
+-'  95  0  ~/myValetProject/public/home.html
+-'  93  1  ~/myValetProject/public/home.html
+-'  8  1  ~/myValetProject/public/home.html
+-'  98  0  ~/myValetProject/public/home.html
+-'  97  17  ~/myValetProject/public/home.html
+-'  91  0  ~/myValetProject/public/home.html.fb
+-'  31  6  ~/myValetProject/public/home.html
+-'  108  0  ~/myValetProject/public/home.html.fb
+-'  114  5  ~/myValetProject/public/home.html.fb
+-'  116  0  ~/myValetProject/public/home.html.fb
+-'  1  0  ~/myValetProject/public/home.html.bak
+-'  147  33  ~/myValetProject/public/home.html.fb
+-'  73  0  ~/myValetProject/public/home.html
+-'  106  5  ~/myValetProject/public/home.html
+-'  119  3  ~/myValetProject/public/home.html
+-'  49  4  ~/myValetProject/myValet/settings.py
+-'  1  0  /etc/nginx/sites-available/default
+-'  12  0  /etc/nginx/sites-available/django
 
 # History of marks within files (newest to oldest):
 
-> /etc/vsftpd.conf
-	"	29	0
-	^	29	0
-	.	29	0
-	+	29	0
+> ~/myValetProject/public/mapDraft.html
+	"	1	0
 
-> ~/.bashrc
-	"	78	4
-	^	91	40
-	.	91	39
-	+	90	0
-	+	91	39
+> ~/myValetProject/myvaletapp/static/CSS/style3.css
+	"	26	0
 
-> /etc/ntp.conf
-	"	35	0
+> ~/myValetProject/public/main.html
+	"	1	0
+	.	5	0
+	+	5	0
+
+> ~/myValetProject/public/home.html.fb
+	"	52	2
+	^	91	0
+	.	47	31
+	+	147	31
+	+	115	38
+	+	107	7
+	+	47	31
+
+> ~/myValetProject/myvaletapp/static/scripts/step6.js
+	"	142	11
+	^	142	12
+	.	142	12
+	+	74	49
+	+	142	6
+	+	131	218
+	+	139	48
+	+	142	14
+	+	131	186
+	+	141	18
+	+	131	312
+	+	131	147
+	+	132	0
+	+	131	312
+	+	131	154
+	+	131	264
+	+	141	1
+	+	143	2
+	+	138	1
+	+	140	1
+	+	138	0
+	+	139	32
+	+	131	167
+	+	131	292
+	+	143	1
+	+	141	0
+	+	142	12
+
+> ~/myValetProject/myvaletapp/static/scripts/modernizr.custom.js
+	"	4	0
+
+> ~/myValetProject/myvaletapp/static/scripts/ytmenu.js
+	"	1	0
+
+> ~/myValetProject/myvaletapp/models.py
+	"	55	0
+
+> ~/myValetProject/myValet/settings.py
+	"	53	0
+	^	126	58
+	.	126	57
+	+	80	42
+	+	81	54
+	+	83	1
+	+	82	22
+	+	83	19
+	+	86	11
+	+	126	43
+	+	28	30
+	+	34	4
+	+	35	3
+	+	34	16
+	+	59	0
+	+	58	46
+	+	28	20
+	+	126	32
+	+	1	1
+	+	126	25
+	+	1	1
+	+	126	39
+	+	127	0
+	+	126	0
+	+	125	0
+	+	126	46
+	+	26	13
+	+	126	57
+
+> ~/myValetProject/myvaletapp/views.py
+	"	1	0
+	^	10	36
+	.	10	36
+	+	7	42
+	+	10	45
+	+	1	1
+	+	10	36
+
+> ~/myValetProject/myValet/urls.py
+	"	24	0
+	^	19	34
+	.	19	33
+	+	17	64
+	+	22	32
+	+	21	32
+	+	18	32
+	+	22	4
+	+	23	3
+	+	22	34
+	+	19	32
+	+	22	40
+	+	19	33
+
+> /etc/nginx/sites-available/django
+	"	62	0
+	^	35	8
+	.	35	8
+	+	7	14
+	+	8	19
+	+	7	13
+	+	8	18
+	+	1	0
+	+	2	0
+	+	4	1
+	+	2	44
+	+	3	18
+	+	34	64
+	+	35	8
+	+	34	8
+	+	40	65
+	+	41	1
+	+	35	8
 
 > /etc/nginx/sites-available/myValetProject
-	"	13	56
-	^	13	57
-	.	13	57
+	"	1	0
+	^	11	50
+	.	11	50
+	+	19	0
+	+	9	1
+	+	10	0
+	+	10	0
+	+	9	32
+	+	9	31
+	+	10	2
+	+	18	0
+	+	8	0
+	+	6	0
+	+	17	1
+	+	16	57
+	+	2	10
+	+	3	1
+	+	4	32
+	+	3	1
+	+	4	1
+	+	3	1
+	+	4	1
+	+	2	11
+	+	10	33
+	+	12	39
+	+	10	33
+	+	11	50
+
+> /etc/nginx/sites-available/myproject
+	"	9	8
+	^	9	8
+
+> ~/myValetProject/myValet/urls
+	"	1	0
+
+> /etc/nginx/sites-available/myValetProject_020517
+	"	1	0
+
+> /etc/nginx/sites-available/myValetProject.bak
+	"	1	0
+
+> ~/myValetProject/myvaletapp/admin.py
+	"	1	0
+
+> ~/myValetProject/public/home.html
+	"	148	2
+	.	47	0
+	+	98	2
+	+	98	4
+	+	112	4
+	+	113	4
+	+	114	4
+	+	115	4
+	+	116	4
+	+	117	4
+	+	111	0
+	+	98	5
+	+	98	5
+	+	100	5
+	+	101	5
+	+	102	5
+	+	98	9
+	+	98	13
+	+	98	13
+	+	99	13
+	+	100	9
+	+	101	9
+	+	104	5
+	+	105	9
+	+	106	9
+	+	107	9
+	+	108	9
+	+	109	9
+	+	110	5
+	+	98	36
+	+	95	0
+	+	98	0
+	+	98	100
+	+	98	0
+	+	98	100
+	+	98	1
+	+	99	0
+	+	98	0
+	+	98	100
+	+	97	0
+	+	98	0
+	+	8	25
 	+	16	0
-	+	8	1
-	+	9	0
-	+	9	0
-	+	8	32
-	+	8	31
-	+	9	2
-	+	15	0
-	+	7	0
-	+	5	0
-	+	14	1
-	+	13	57
+	+	79	39
+	+	16	43
+	+	18	0
+	+	16	43
+	+	10	1
+	+	127	0
+	+	145	0
+	+	128	0
+	+	127	0
+	+	139	1
+	+	137	20
+	+	138	1
+	+	139	3
+	+	144	2
+	+	143	3
+	+	140	3
+	+	124	1
+	+	140	7
+	+	141	30
+	+	142	39
+	+	135	2
+	+	131	31
+	+	134	6
+	+	133	40
+	+	135	3
+	+	176	4
+	+	175	0
+	+	176	32
+	+	174	8
+	+	175	5
+	+	176	43
+	+	176	9
+	+	174	26
+	+	47	0
+	+	47	14
+	+	172	0
+	+	177	0
+	+	47	18
+	+	176	55
+	+	47	0
+	+	47	0
+	+	176	8
+	+	47	0
+	+	177	6
+	+	176	26
+	+	177	43
+	+	176	4
+	+	177	0
+	+	47	0
+	+	172	0
+	+	191	0
+	+	193	5
+	+	191	19
+	+	47	0
+	+	47	21
+	+	47	15
+	+	191	0
+	+	193	0
+	+	47	0
 
 > /etc/init/gunicorn.conf
-	"	22	97
+	"	18	0
 	^	22	98
 	.	22	98
 	+	4	0
@@ -198,6 +475,95 @@
 	+	22	100
 	+	22	98
 
+> ~/myValetProject/myValet/wsgi.py
+	"	1	0
+
+> /etc/sudoers
+	"	21	4
+	^	21	5
+	.	21	4
+	+	21	4
+
+> ~/myValetProject/public/home.html.bak
+	"	1	0
+
+> /etc/nginx/sites-available/default
+	"	1	0
+	^	22	15
+	.	22	15
+	+	21	11
+	+	22	16
+	+	21	10
+	+	22	15
+	+	21	11
+	+	22	16
+	+	21	10
+	+	22	15
+	+	21	11
+	+	22	16
+	+	21	10
+	+	22	15
+
+> /etc/nginx/nginx.conf
+	"	25	0
+
+> ~/myValetProject/myvaletapp/apps.py
+	"	1	0
+
+> ~/myValetProject/myvaletapp/a
+	"	1	0
+
+> ~/myValetProject/manage.py
+	"	6	0
+	.	9	0
+	+	9	0
+
+> home/dev/myValetProject/myValet.sock
+	"	1	0
+
+> ~/myValetProject/myvaletapp/tests.py
+	"	1	0
+
+> /etc/hosts
+	"	1	0
+
+> /etc/hostname
+	"	1	0
+
+> /usr/share/nginx/html/index.html
+	"	1	0
+
+> ~/myValetProject/myvaletapp/home.html
+	"	3	21
+	^	3	22
+	.	3	21
+	+	7	6
+	+	6	21
+	+	4	6
+	+	3	21
+
+> ~/myValetProject/MyValet/settings.py
+	"	1	0
+
+> ~/myValetProject/MyValetProject/settings.py
+	"	1	0
+
+> /etc/vsftpd.conf
+	"	29	0
+	^	29	0
+	.	29	0
+	+	29	0
+
+> ~/.bashrc
+	"	78	4
+	^	91	40
+	.	91	39
+	+	90	0
+	+	91	39
+
+> /etc/ntp.conf
+	"	35	0
+
 > etc/ngingx/site-availble/myValetProject
 	"	11	69
 	^	11	70
@@ -213,19 +579,6 @@
 	+	10	1
 	+	12	0
 	+	11	69
-
-> ~/myValetProject/myValet/settings.py
-	"	28	30
-	^	28	31
-	.	28	30
-	+	78	42
-	+	79	54
-	+	81	1
-	+	80	22
-	+	81	19
-	+	84	11
-	+	124	43
-	+	28	30
 
 > ~/myValetProject/myValet.settings.py
 	"	1	0

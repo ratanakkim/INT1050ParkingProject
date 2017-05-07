@@ -15,7 +15,10 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-
+from myvaletapp.views import home
+from myvaletapp.views import initMap
 urlpatterns = [
+    url(r'^$',home, name='home'),
+    url(r'^map/$', initMap, name='initMap'),
     url(r'^admin/', admin.site.urls),
 ]
