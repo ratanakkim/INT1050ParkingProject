@@ -18,7 +18,7 @@ class AdsClickUsers(models.Model):
     clicks = models.IntegerField(blank=True, null=True)
 
     class Meta:
-        managed = False
+        managed = True
         db_table = 'ads_click_users'
 
 
@@ -28,7 +28,7 @@ class AdsCompany(models.Model):
     category = models.IntegerField(blank=True, null=True)
 
     class Meta:
-        managed = False
+        managed = True
         db_table = 'ads_company'
 
 
@@ -48,7 +48,7 @@ class AdsEvent(models.Model):
     ads_exposure_time = models.SmallIntegerField(blank=True, null=True)
 
     class Meta:
-        managed = False
+        managed = True
         db_table = 'ads_event'
 
 
@@ -56,7 +56,7 @@ class AuthGroup(models.Model):
     name = models.CharField(unique=True, max_length=80)
 
     class Meta:
-        managed = False
+        managed = True
         db_table = 'auth_group'
 
 
@@ -65,7 +65,7 @@ class AuthGroupPermissions(models.Model):
     permission = models.ForeignKey('AuthPermission', models.DO_NOTHING)
 
     class Meta:
-        managed = False
+        managed = True
         db_table = 'auth_group_permissions'
         unique_together = (('group', 'permission'),)
 
@@ -76,7 +76,7 @@ class AuthPermission(models.Model):
     codename = models.CharField(max_length=100)
 
     class Meta:
-        managed = False
+        managed = True
         db_table = 'auth_permission'
         unique_together = (('content_type', 'codename'),)
 
@@ -94,7 +94,7 @@ class AuthUser(models.Model):
     date_joined = models.DateTimeField()
 
     class Meta:
-        managed = False
+        managed = True
         db_table = 'auth_user'
 
 
@@ -103,7 +103,7 @@ class AuthUserGroups(models.Model):
     group = models.ForeignKey(AuthGroup, models.DO_NOTHING)
 
     class Meta:
-        managed = False
+        managed = True
         db_table = 'auth_user_groups'
         unique_together = (('user', 'group'),)
 
@@ -113,7 +113,7 @@ class AuthUserUserPermissions(models.Model):
     permission = models.ForeignKey(AuthPermission, models.DO_NOTHING)
 
     class Meta:
-        managed = False
+        managed = True
         db_table = 'auth_user_user_permissions'
         unique_together = (('user', 'permission'),)
 
@@ -128,7 +128,7 @@ class DjangoAdminLog(models.Model):
     user = models.ForeignKey(AuthUser, models.DO_NOTHING)
 
     class Meta:
-        managed = False
+        managed = True
         db_table = 'django_admin_log'
 
 
@@ -137,7 +137,7 @@ class DjangoContentType(models.Model):
     model = models.CharField(max_length=100)
 
     class Meta:
-        managed = False
+        managed = True
         db_table = 'django_content_type'
         unique_together = (('app_label', 'model'),)
 
@@ -148,7 +148,7 @@ class DjangoMigrations(models.Model):
     applied = models.DateTimeField()
 
     class Meta:
-        managed = False
+        managed = True
         db_table = 'django_migrations'
 
 
@@ -158,12 +158,12 @@ class DjangoSession(models.Model):
     expire_date = models.DateTimeField()
 
     class Meta:
-        managed = False
+        managed = True
         db_table = 'django_session'
 
 
 class ParkingLot(models.Model):
-    parking_lot_id = models.AutoField(primary_key=True)
+    parking_lot_id = models.CharField(primary_key=True, max_length=50)
     parking_lot_name = models.CharField(max_length=255)
     location_name = models.CharField(max_length=255)
     location_latitude = models.FloatField()
@@ -173,7 +173,7 @@ class ParkingLot(models.Model):
     rating = models.SmallIntegerField()
 
     class Meta:
-        managed = False
+        managed = True
         db_table = 'parking_lot'
 
 
@@ -185,7 +185,7 @@ class ParkingLotFeedback(models.Model):
     rating = models.SmallIntegerField()
 
     class Meta:
-        managed = False
+        managed = True
         db_table = 'parking_lot_feedback'
 
 
@@ -198,5 +198,5 @@ class ParkingLotPrice(models.Model):
     end_date = models.DateTimeField(blank=True, null=True)
 
     class Meta:
-        managed = False
+        managed = True
         db_table = 'parking_lot_price'
