@@ -1,0 +1,8 @@
+.btn-valet-navy{
+    background-color: #2574A8;
+    color: #F6FAFD;
+    border-color: none;
+}
+.btn:hover{
+    color: #3498DB;
+}
