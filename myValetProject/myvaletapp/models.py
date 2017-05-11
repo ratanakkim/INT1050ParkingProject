@@ -11,11 +11,13 @@ from django.db import models
 
 
 class AdsClickUsers(models.Model):
-    ads_id = models.AutoField(primary_key=True)
+	ads_click_users_id = models.AutoField(primary_key=True)
+    ads_id = models.IntegerField()
     ads_company_id = models.IntegerField()
     user_profile_id = models.IntegerField()
     ip_address = models.CharField(max_length=50)
     clicks = models.IntegerField(blank=True, null=True)
+    clicked_time = models.DateTimeField(blank=True, null=True)
 
     class Meta:
         managed = True
@@ -25,8 +27,9 @@ class AdsClickUsers(models.Model):
 class AdsCompany(models.Model):
     ads_company_id = models.AutoField(primary_key=True)
     ads_company_name = models.CharField(max_length=255)
+    ads_company_status = models.CharField(max_length=1, blank=True, null=True)
     category = models.IntegerField(blank=True, null=True)
-
+    
     class Meta:
         managed = True
         db_table = 'ads_company'
@@ -170,6 +173,7 @@ class ParkingLot(models.Model):
     location_longitude = models.FloatField()
     location_address1 = models.CharField(max_length=255, blank=True, null=True)
     location_address2 = models.CharField(max_length=255, blank=True, null=True)
+    parking_lot_status = models.CharField(max_length=1, blank=True, null=True)
     rating = models.SmallIntegerField()
 
     class Meta:
@@ -179,7 +183,7 @@ class ParkingLot(models.Model):
 
 class ParkingLotFeedback(models.Model):
     feedback_id = models.AutoField(primary_key=True)
-    parking_lot_id = models.IntegerField()
+    parking_lot_id = models.CharField(max_length=50)
     user_profile_id = models.IntegerField()
     feedback = models.TextField()
     rating = models.SmallIntegerField()
@@ -190,7 +194,7 @@ class ParkingLotFeedback(models.Model):
 
 
 class ParkingLotPrice(models.Model):
-    parking_lot_id = models.IntegerField()
+    parking_lot_id = models.CharField(primary_key=True, max_length=50)
     price_per_day = models.DecimalField(max_digits=10, decimal_places=2, blank=True, null=True)
     price_per_week = models.DecimalField(max_digits=10, decimal_places=2, blank=True, null=True)
     price_per_month = models.DecimalField(max_digits=10, decimal_places=2, blank=True, null=True)
