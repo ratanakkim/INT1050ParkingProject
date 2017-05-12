@@ -1,3 +1,18 @@
+body{
+    margin: 0;
+    padding: auto;
+}
+nav{
+    background-color: #2C3E50;
+    padding: 3%
+}
+nav div div a h1{
+    color: #F6FAFD;
+    font-family: 'Timmana', sans-serif;
+    font-size: 40pt;
+    padding: 0;
+    margin: 0;
+}
 .btn-valet-navy{
     background-color: #2574A8;
     color: #F6FAFD;
@@ -5,4 +20,14 @@
 }
 .btn:hover{
     color: #3498DB;
+}
+.disclaim{
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    margin: 10% 0%;
+}
+.style-search{
+    padding: 10% 2%;
+    background-color: #2C3E50;
+    color: #F6FAFD;
 }
