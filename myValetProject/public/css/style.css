@@ -1,15 +1,21 @@
-body{
-    margin: 0;
-    padding: auto;
+html body{
+    margin: auto;
+    padding: 0;
 }
 nav{
     background-color: #2C3E50;
-    padding: 3%
+    padding: 3%;
 }
 nav div div a h1{
     color: #F6FAFD;
     font-family: 'Timmana', sans-serif;
     font-size: 40pt;
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    color: #F6FAFD;
+    font-family: 'Timmana', sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -23,11 +29,49 @@ nav div div a h1{
 }
 .disclaim{
     font-family: 'Dosis', sans-serif;
+    font-size: 40pt;
     text-align: center;
-    margin: 10% 0%;
+    margin: 25% 0%;
 }
 .style-search{
-    padding: 10% 2%;
+    padding: 20% 2%;
     background-color: #2C3E50;
     color: #F6FAFD;
+    margin: 0%;
+    font-family: 'Dosis', sans-serif;
+    font-size: 12pt;
+}
+.h{
+    font-family: 'Timmana', sans-serif;
+}
+.search{
+    width: 50%;
+    display: inline;
+}
+div p{
+    margin: 3% 0%;
+    padding: 0% 2%;
+}
+.member{
+    background-color: #3498DB;
+    margin: 0%;
+    padding: 20% 2%;
+    font-family: 'Dosis', sans-serif;
+    font-size: 12pt;
+}
+.btn-join{
+    margin: 0% 40%;
+}
+.navbar-inverse {
+    background-color: #2C3E50;
+}
+.navbar-nav{
+    color: #F6FAFD;
+}
+form h3{
+    color: #F6FAFD;
+    font-family: 'Dosis', sans-serif;
+}
+.space{
+    margin: 3% 0%;
 }
